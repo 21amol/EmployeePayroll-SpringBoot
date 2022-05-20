@@ -1,0 +1,14 @@
+package com.example.employeepayrollspringboot;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class EmployeePayrollSpringBootApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(EmployeePayrollSpringBootApplication.class, args);
+        System.out.println("Welcome to Employee Payroll App");
+    }
+
+}
